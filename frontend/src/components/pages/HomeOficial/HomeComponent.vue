@@ -1,6 +1,4 @@
 <template>
-<!DOCTYPE html>
-<html lang="en">
 <div class="container-fluid">
 	<div class="">
     <section>
@@ -19,7 +17,6 @@
     </section>
 </div>
 </div>
-</html>
 </template>
 <script>
 export default {
@@ -57,7 +54,7 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image:url(https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjJ8fGFic3RyYWN0JTIwYmx1ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    /*background-image:url(https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjJ8fGFic3RyYWN0JTIwYmx1ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);*/
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;

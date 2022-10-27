@@ -1,0 +1,8 @@
+#box{
+    display: block;
+    width: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 200px;
+}

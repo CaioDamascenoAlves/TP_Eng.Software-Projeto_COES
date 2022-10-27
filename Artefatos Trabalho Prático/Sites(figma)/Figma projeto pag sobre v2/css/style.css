@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  padding: 10px 30px;
+  background-color: transparent;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-image: "assets/img/fundo.png";
+}
+
+a#cab {
+  font-weight: 900;
+  font-size: 20px;
+  color: #595023;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  margin: 3vh;
+  transition: 0.3s;
+}
+
+img#t {
+  display: block;
+  width: 100px;
+  height: 80px;
+}
+
+a#cab:hover {
+  opacity: 0.7;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8vh;
+}
+
+span#s1 {
+  display: inline-block;
+  width: 6px;
+  background-color: #595023;
+  border-radius: 50px;
+  padding-bottom: 6px;
+  margin-bottom: 3px;
+  margin-right: 4px;
+}
+
+body {
+  /* background: url(../assets/img/fundo.png) no-repeat center center; */
+  background-size: auto;
+  height: 100vh;
+}
+
+h1 {
+  text-indent: 30px;
+  display: flex;
+  font-size: 30px;
+  font-family: "Abyssinica SIL", serif;
+}
+
+.p2 {
+  line-height: 2;
+  text-indent: 25px;
+  font-family: "Abyssinica SIL", serif;
+  font-size: 22px;
+}
+
+.p1 {
+  font-family: "Abyssinica SIL", serif;
+  font-size: 25px;
+}
+
+span#s2 {
+  display: inline-block;
+  width: 6px;
+  background-color: black;
+  border-radius: 50px;
+  padding-bottom: 6px;
+  margin-bottom: 3px;
+  margin-right: 4px;
+}
+
+.t4 {
+  width: 300px;
+  height: 300px;
+}
+
+.button-sm {
+  margin-left: 200;
+  margin-bottom: 100;
+  width: 210px;
+  height: 40px;
+  border-radius: 25px;
+  border-color: transparent;
+  background-color: #595023;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button-sm:hover {
+  opacity: 0.7;
+}
+
+.t2 {
+  margin-bottom: 10px;
+  width: 54px;
+  height: 44px;
+}
+
+.t3 {
+  margin-bottom: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.img-logos-buttons {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.img-logo img {
+  width: 350px;
+  height: 350px;
+}
+
+.img-logo {
+  text-align: center;
+}
+
+.espaco-cab {
+  background-color: transparent;
+  display: flex;
+  /* width: 800px; */
+  /* height: 50px; */
+  /* margin-top: 0px;
+  margin-left: 150px;
+  margin-right: 550px; */
+}
+
+.box2 {
+  margin-top: 7vh;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box p {
+  display: flex;
+  margin-top: 5vh;
+  font-size: 1.8em;
+  margin-left: 15vh;
+  margin-right: 15vh;
+}
+
+.botao {
+  margin-top: 1vh;
+  width: 220px;
+  margin-left: 25%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.button-sm {
+  margin: 0 auto;
+}
+
+.box3 {
+  display: flex;
+}
+
+.box3 img {
+  margin: 1.5vh;
+}
+
+@media (max-width: 999px) {
+  .box p {
+    margin-top: 4vh;
+    font-size: 1.4em;
+    margin-left: 3vh;
+    margin-right: 3vh;
+  }
+
+  .espaco-cab #cab {
+    font-size: 1em;
+  }
+
+  .box2 {
+    display: block;
+    margin-left: 6vh;
+    margin-right: 6vh;
+  }
+
+  .box2 p {
+    font-size: 1em;
+  }
+
+  .img-logos-buttons {
+    background-color: transparent;
+    flex-direction: inherit;
+    display: flex;
+  }
+
+  .img-logos-buttons a {
+    margin: 1vh;
+  }
+
+  .img-logos-buttons img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .img-logo img {
+    margin-top: 4vh;
+    width: 300px;
+    height: 300px;
+  }
+
+  .box3 {
+    flex-direction: column;
+  }
+
+  .espaco-cab nav a#cab {
+    font-size: 0.9em;
+  }
+}
